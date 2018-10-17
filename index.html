@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Survey</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+  </head>
+  <body>
+
+  <div class="container">
+    <form class="form-control">
+      <div>
+        <label for="name">Name</label>
+        <input type="text">
+      </div>
+      <div>
+      <label for="favoriteFood">Favorite Food</label>
+        <select class="form-control" id="beverage">
+          <option>Burger</option>
+          <option>Pasta</option>
+          <option>Pizza</option>
+          <option>Steak</option>
+        </select>
+      </div>
+      <div>
+        <label for="favoriteDrink">Favorite Drink</label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="drink" value="chocolate" checked>
+            Chocolate Milk
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="drink" value="vanilla">
+            Vanilla Coffee
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="drink" value="cookiesandcream">
+            Cookies & Cream milkshake
+          </label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="color">What is your favorite color?</label>
+        <input id="color" class="form-control" type="color">
+      </div>
+
+      <div class="form-group">
+        <label for="born">Date of birth:</label>
+        <input id="born" class="form-control" type="date">
+      </div>
+
+    </form>
+  </div>
+  </body>
+</html>
